@@ -1,0 +1,28 @@
+<html>
+  <body>
+
+    <div>		
+      <h1>Farts and Poops></h1>
+    </div>
+    <p>
+"Farts and poops sure are mysterious... Where do they come from? Why must they be? What do they want? These are the questions we must ask the stars...
+    </p>
+
+
+</body>
+</html>	
+
+
+---------Tools---------
+
+<em>  -italics
+<strong>  -bold
+<br>  -line break
+
+<ul>  -bullet lists  <ol>  -numbered list
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul> </ol>
+
+---------Tools---------

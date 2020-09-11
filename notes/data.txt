@@ -1,0 +1,7 @@
+Python
+Numpy - np arrays
+Pandas - dataframe
+Matplotlib - visuals
+Scikit-Learn - machine learning
+
+https://github.com/jakevdp/PythonDataScienceHandbook
