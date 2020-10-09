@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Fri Oct 9 08:18:18 2020
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   loader.ctl
+Data File:      C:\Users\thomaej\Desktop\Projects\mySampleSite\mySampleSiteGolferData.csv
+  Bad File:     mySampleSiteGolferData.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table GOLFERS, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,  O(") CHARACTER            
+LAST_NAME                            NEXT     *   ,  O(") CHARACTER            
+FIRST_NAME                           NEXT     *   ,  O(") CHARACTER            
+PHONE                                NEXT     *   ,  O(") CHARACTER            
+TEAM                                 NEXT     *   ,  O(") CHARACTER            
+HANDICAP                             NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table GOLFERS, column ID.
+ORA-01722: invalid number
+
+
+Table GOLFERS:
+  40 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            41
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Fri Oct 09 08:18:18 2020
+Run ended on Fri Oct 09 08:18:19 2020
+
+Elapsed time was:     00:00:00.62
+CPU time was:         00:00:00.09

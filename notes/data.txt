@@ -8,3 +8,5 @@ https://github.com/jakevdp/PythonDataScienceHandbook
 
 ----mySampleSitedata----
 
+
+EM Express : sys/oracle
