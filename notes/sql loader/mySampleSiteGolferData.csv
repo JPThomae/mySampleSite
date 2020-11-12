@@ -1,41 +1,27 @@
-id,last_name,first_name,phone,team,handicap
-1,Thomae,Pete,6187872576,AAA,9
-2,Johnson,Drew,6189167103,Juicers,5
-3,Nay,Austin,6185505921,Other Guys,6
-4,Shemwell,Zach,6188199165,Lobbers,8
-5,Easley,Chris,6187739907,Green Beans,6
-6,Loyet,David,6188468718,Golf Dudes,9
-7,Simpson,Jerry,6188535203,Smell Ya Later,9
-8,Elliott,James,6180518764,AAA,8
-9,James,Donnie,6188372342,Juicers,7
-10,Thomas,Ryan,6184759197,Other Guys,8
-11,Thomae,Mark,6188951197,Lobbers,8
-12,Green,Bill,6186498140,Green Beans,6
-13,Winslow,Kevin,6188083190,Golf Dudes,10
-14,Falco,Shane,6187455149,Smell Ya Later,5
-15,Reaves,Keanu,6186769880,AAA,6
-16,Stevens,Ricky,6184400907,Juicers,6
-17,Edwards,John,6181586360,Other Guys,7
-18,Camp,John,6188685527,Lobbers,9
-19,Gray,Jake,6182716196,Green Beans,6
-20,Springman,Jake,6188940604,Golf Dudes,7
-21,Thompson,Patrick,6181049214,Smell Ya Later,8
-22,Reed,Steve,6181862215,AAA,7
-23,Stoner,Larry,6185225097,Juicers,8
-24,Deeter,Mike,6187206089,Other Guys,7
-25,Williams,Derek,6189405882,Lobbers,7
-26,Morris,Fred,6186272145,Green Beans,9
-27,Brown,Wally,6188193472,Golf Dudes,8
-28,Brown,Brian,6182146333,Smell Ya Later,7
-29,Norman,Matt,6184039903,AAA,7
-30,Huffmaster,Stephen,6180503055,Juicers,8
-31,Rutherford,Ty,6181311102,Other Guys,7
-32,Triplo,Dennis,6181366153,Lobbers,8
-33,Jarmin,Troy,6188974155,Green Beans,6
-34,Anderson,Thomas,6188208599,Golf Dudes,6
-35,Burns,James,6183803531,Smell Ya Later,7
-36,Krause,Eldon,6188258267,AAA,7
-37,Hemphill,Dick,6183454656,Juicers,10
-38,Crites,Terri,6188701924,Other Guys,9
-39,Curlie,Randy,6185421386,Lobbers,4
-40,Glover,Danny,6184176745,Green Beans,6
+LEAGUE STANDINGS,,,,,,,,,,,,League Schedule,,,,,,,,,,,,,
+Team,Points,Record,,optional stats,next week opp,thru week,,secret stats,top point man,bottom point man,,Week 1,,Week 2,,Week 3,,Week 4,,Week 5,,Week 6,,Week 7,
+Team 1,0,0-0,,,,,,,per 2some handicap power rating,,,Team 1,Team 5,Team 4,Team 5,Team 3,Team 5,Team 2,Team 5,Team 1,Team 2,Team 1,Team 3,Team 1,Team 4
+Team 2,0,0-0,,,,,,,,,,Team 2,Team 6,Team 1,Team 6,Team 4,Team 6,Team 3,Team 6,Team 3,Team 4,Team 2,Team 4,Team 2,Team 3
+Team 3,0,0-0,,Teams - Links to expanded team stats,,,,,,,,Team 3,Team 7,Team 2,Team 7,Team 1,Team 7,Team 4,Team 7,Team 5,Team 6,Team 5,Team 7,Team 6,Team 7
+Team 4,0,0-0,,,,,,,,,,Team 4,Bye,Team 3,Bye,Team 2,Bye,Team 1,Bye,Team 7,Bye,Team 6,Bye,Team 5,Bye
+Team 5,0,0-0,,,,,,,,,,,,,,,,,,,,,,,
+Team 6,0,0-0,,,,,,,,,,,,,,,,,,,,,,,
+Team 7,0,0-0,,,,,,,,,,,,,,,,,,,,,,,
+Bye,0,0-0,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,I want my db to automatically update with the most recent version of data from this workbook. Possible Python scripting solution,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Get a scorecard and photo it for the site,,,,,,,,,,,,,,,,,,,
+Last Week's Results,,,,,,,,,,,,,,,,,,,,,,,,,
+4-May,,,,,,,,Shiny for stat embed,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Team 1,Team 5,,,Team Name,,,,,,,,,,Team 1,,Team 1,,,,,,,,,
+0,0,,,Player 1,,,,,,,,,,,,,,,,,,,,,
+Team 2,Team 6,,,Player 2,,,,,,,,,,Team 2,,Team 2,,,,,,,,,
+0,0,,,Player 3,,,,,,,,,,,,,,,,,,,,,
+Team 3,Team 7,,,Player 4,,,,,,,,,,Team 3,,Team 3,,,,,,,,,
+0,0,,,Player 5,,,,,,,,,,,,,,,,,,,,,
+Team 4,Bye,,,Player 6,,,,,,,,,,Team 4,,Team 4,,,,,,,,,
+0,0,,,Player 7,,,,,,,,,,Team 5,,Team 5,,,,,,,,,
+,,,,,,,,,,,,,,Team 6,,Team 6,,,,,,,,,
+,,,,,,,,,,,,,,Team 7,,Team 7,,,,,,,,,

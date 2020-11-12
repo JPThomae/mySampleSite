@@ -10,12 +10,23 @@ p {
 
 table.nav {
   font-family: "Moolboran", serif;
-  border: 6px solid #006400;
+  border: 6px solid #D4EED1;
   background-color: #D4EED1;
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+table.nav2 {
+  font-family: "Moolboran", serif;
+  background-color: #D4EED1;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    height: 5px;
 }
 
 table.greenTable {
@@ -42,28 +53,40 @@ table.greenTable2 {
   margin-top: 50px;
 }
 
-table.greenTable td, table.greenTable th, table.greenTable2 td, table.greenTable2 th {
+table.greenTableCenter {
+  font-family: "Moolboran", serif;
+  font-weight: bold;
+  border: 6px solid #006400;
+  background-color: #D4EED1;
+  width: 40%;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+table.greenTable td, table.greenTable th, table.greenTable2 td, table.greenTable2 th, table.greenTableCenter td, table.greenTableCenter th {
   border: 1px solid #006400;
   padding: 3px 2px;
 }
-table.greenTable tbody td, table.greenTable2 tbody td {
+table.greenTable tbody td, table.greenTable2 tbody td, table.greenTableCenter tbody td {
   font-size: 13px;
 }
-table.greenTable thead, table.greenTable2 thead {
+table.greenTable thead, table.greenTable2 thead, table.greenTableCenter thead {
   background: #006400;
   background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #006400 100%);
   background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #006400 100%);
   background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #006400 100%);
   border-bottom: 0px solid #444444;
 }
-table.greenTable thead th, table.greenTable2 thead th {
+table.greenTable thead th, table.greenTable2 thead th, table.greenTableCenter thead th {
   font-size: 19px;
   font-weight: bold;
   color: #F0F0F0;
   text-align: center;
   border-left: 2px solid #006400;
 }
-table.greenTable thead th:first-child, table.greenTable2 thead th:first-child {
+table.greenTable thead th:first-child, table.greenTable2 thead th:first-child, table.greenTableCenter thead th:first-child {
   border-left: none;
 }
 
@@ -79,7 +102,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero4.jpg");
 
   /* Set a specific height */
-  height: 125%;
+  height: 150%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -95,12 +118,17 @@ body, html {
 .welcome_text {
   color: white;
   margin: 60px;
-    padding-top: 40px;
+  padding-top: 40px;
   
 }
 
-.footer {
-  border: 6px solid #D4EED1;
+.footer {  
   background-color: #D4EED1;
   width: 100%;
+  border-bottom: 18px solid black;
+  height: auto;
+}
+
+.space {
+  background: #D4EED1;
 }
