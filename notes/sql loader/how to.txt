@@ -1,0 +1,17 @@
+--Create Your Table--
+
+CREATE TABLE Golfers (
+id     VARCHAR2(20)   PRIMARY KEY,
+last_name   VARCHAR2(20),
+first_name   VARCHAR2(30),
+phone    VARCHAR(11),
+team    VARCHAR2(20),
+handicap    VARCHAR2(20)
+);
+
+Modify or create ctl and par files
+
+Navigate a cmd to the folder everything is in
+
+sqlldr parfile=golfers.par from cmd
+

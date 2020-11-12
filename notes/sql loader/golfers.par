@@ -1,0 +1,6 @@
+userid=thomaej/otbu+1
+control=golfers.ctl
+log=golfers.log
+bad=golfers.bad
+data=mySampleSiteGolferData.csv
+direct=true
