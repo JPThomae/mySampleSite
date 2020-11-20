@@ -1,0 +1,57 @@
+# Comment
+
+5 + 5  #valid statement
+
+6 * 9  #valid statement
+
+variable_declaration <- 0
+
+#vectors are lists of simalar data types
+spring_months <- c("March", "April","May","June")  #This is a vector
+typeof(spring_months)  #checks the vectors element type
+
+#R starts counting at 1 instead of 0
+
+--Conditional Statements--
+
+if (TRUE) {
+   print("Go to sleep!")
+} else {
+   print("Wake up!")
+}
+
+if (weather == 'cloudy' & high_chance_of_rain) {
+  message <- 'Pack umbrella!'
+} else {
+  message <- 'No need for an umbrella!'
+}
+
+AND <- &
+OR <- |
+
+--Functions--
+
+sort()
+length()
+sum()
+unique()  #returns a vector with only unique elements
+floor()
+ceiling()
+sqrt()
+
+
+--Packages--
+
+install.packages('package-name')  #install package, only needed once
+library(package_name)  #imports package for current program
+
+dplyr  #designed to manipulate data easier and more intuitive
+dplyr/readr  #part of the tidyverse, which is a collection of packages to analyze data
+
+
+
+
+--Usage--
+
+golfers <- read.csv('mySampleSiteGolferData.csv')  #reading in the excel file
+golfers_data <- 

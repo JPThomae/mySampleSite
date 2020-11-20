@@ -31,3 +31,82 @@ for high in highlighted_poems_details:
 
 for i in len(titles):
   print('The poem {title} was published by {poet} in {date').format(title=title[i], poet=poet[i], date=dates[i])
+
+
+
+-----Hackerrank Puzzles-----
+
+---Minion Game---
+
+stuart = 0 #c
+kevin = 0 #v
+    
+vowels = ['A', 'E', 'I', 'O', 'U']
+    
+for i in range(0, len(string)):
+    if string[i] in vowels:
+        score = (len(string) - i)
+        kevin += score
+    else:
+        score = (len(string) - i)
+        stuart += score
+            
+if stuart > kevin:
+    print('Stuart ', end='')
+    print(stuart)
+elif kevin > stuart:
+    print('Kevin ', end='')
+    print(kevin)
+else:
+    print('Draw')
+
+
+---Leap Year---
+
+def is_leap(year):
+    leap = True
+    if year % 400 == 0:
+        return leap
+    elif year % 100 == 0 and year % 400 != 0:
+        leap = False
+    elif year % 4 == 0:
+        return leap
+    else:
+        leap = False
+    
+    return leap
+
+---Merge the Tools---
+
+def merge_the_tools(string, k):
+    nums = [i for i in range(0, len(string)+1, k)]
+    
+    if k == 1:
+        for i in range(0, len(string)+1):
+            print(string[i])
+    
+    if k != 1:
+        for i in range(0, k):
+            piece = string[nums[i]:nums[i+1]]
+            split_piece = []
+        
+            final_string = ''
+        
+            for i in piece:
+                if i not in split_piece:
+                    split_piece += i
+                    final_string += i
+                    continue
+                else:
+                    pass
+        
+            print(final_string)
+
+
+#Best Solution - You can't have duplicate keys so it adds everything to a fresh dict and prints the keys in order
+
+def merge_the_tools(string, k):
+    
+    for i in range(0,len(string),k):
+        y=string[i:i+k]
+        print("".join(dict.fromkeys(y)))
