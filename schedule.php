@@ -13,11 +13,11 @@
         <table class="nav">
             <tr>
               <td style="width:5%"> <img src="images/logo.png" width=100 height=40 align="left"/></td>
-              <td><h4><a href="./homepage.html"> Home </a></h4></td>
+              <td><h4><a href="./homepage.php"> Home </a></h4></td>
               <td><h4> Schedule </h4></td>
-              <td><h4><a href="./stats.html"> Stats </a></h4></td>
-              <td><h4><a href="./handicaps.html"> Handicaps </a></h4></td>
-              <td><h4><a href="./info.html"> Info </a></h4></td>
+              <td><h4><a href="./stats.php"> Stats </a></h4></td>
+              <td><h4><a href="./handicaps.php"> Handicaps </a></h4></td>
+              <td><h4><a href="./info.php"> Info </a></h4></td>
             </tr>  
           </table>
       </section>  
@@ -438,10 +438,10 @@
           <div class="footer">   
           <table class="nav2">
             <tr>
-              <td><h5><a href="./homepage.html"> Home </a></h5></td>
-              <td><h5><a href="./stats.html"> Stats </a></h5></td>
-              <td><h5><a href="./handicaps.html"> Handicaps </a></h5></td>
-              <td><h5><a href="./info.html"> Info </a></h5></td>
+              <td><h5><a href="./homepage.php"> Home </a></h5></td>
+              <td><h5><a href="./stats.php"> Stats </a></h5></td>
+              <td><h5><a href="./handicaps.php"> Handicaps </a></h5></td>
+              <td><h5><a href="./info.php"> Info </a></h5></td>
             </tr>  
           </table>
         

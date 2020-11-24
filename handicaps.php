@@ -13,11 +13,11 @@
     <table class="nav">
         <tr>
           <td style="width:5%"> <img src="images/logo.png" width=100 height=40 align="left"/></td>
-          <td><h4><a href="./homepage.html"> Home </a></h4></td>
-          <td><h4><a href="./schedule.html"> Schedule </a></h4></td>
-          <td><h4><a href="./stats.html"> Stats </a></h4></td>
+          <td><h4><a href="./homepage.php"> Home </a></h4></td>
+          <td><h4><a href="./schedule.php"> Schedule </a></h4></td>
+          <td><h4><a href="./stats.php"> Stats </a></h4></td>
           <td><h4> Handicaps </h4></td>
-          <td><h4><a href="./info.html"> Info </a></h4></td>
+          <td><h4><a href="./info.php"> Info </a></h4></td>
         </tr>  
       </table>
   </section>  

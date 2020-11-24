@@ -11,3 +11,7 @@ check if database is container or not: select name, cdb, con_id from v$database;
 check instance name: select instance_name, status, con_id from v$instance;
 check port for express: select dbms_xdb_config.gethttpsport() from dual;
 shows valid service names: select value from v$parameter where name='service_names'
+
+
+mysql: port 3306 
+x protocol port 33060

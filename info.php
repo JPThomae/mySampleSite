@@ -14,10 +14,10 @@
     <table class="nav">
         <tr>
           <td style="width:5%"> <img src="images/logo.png" width=100 height=40 align="left"/></td>
-            <td><h4><a href="./homepage.html"> Home </a></h4></td>
-          <td><h4><a href="./schedule.html"> Schedule </a></h4></td>
-          <td><h4><a href="./stats.html"> Stats </a></h4></td>
-          <td><h4><a href="./handicaps.html"> Handicaps </a></h4></td>
+            <td><h4><a href="./homepage.php"> Home </a></h4></td>
+          <td><h4><a href="./schedule.php"> Schedule </a></h4></td>
+          <td><h4><a href="./stats.php"> Stats </a></h4></td>
+          <td><h4><a href="./handicaps.php"> Handicaps </a></h4></td>
           <td><h4> Info </h4></td>
         </tr>  
       </table>
@@ -28,10 +28,10 @@
     <div class="footer">   
           <table class="nav2">
             <tr>
-              <td><h5><a href="./homepage.html"> Home </a></h5></td>    
-              <td><h5><a href="./schedule.html"> Schedule </a></h5></td>
-              <td><h5><a href="./stats.html"> Stats </a></h5></td>
-              <td><h5><a href="./handicaps.html"> Handicaps </a></h5></td>
+              <td><h5><a href="./homepage.php"> Home </a></h5></td>    
+              <td><h5><a href="./schedule.php"> Schedule </a></h5></td>
+              <td><h5><a href="./stats.php"> Stats </a></h5></td>
+              <td><h5><a href="./handicaps.php"> Handicaps </a></h5></td>
             </tr>  
           </table>
         
